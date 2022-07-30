@@ -62,10 +62,10 @@ switch (mask){
 
     let allIps = ipSplit[3]
     allIps = Number(allIps)
-    console.log(`All host IP's: ${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${lastOctet}`)
+    console.log(`All Networks IP's: ${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${lastOctet}`)
     while (allIps < 255) {
         allIps = allIps + 1
-        console.log(`All host IP's:${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${allIps}`)
+        console.log(`All Networks IP's: ${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${allIps}`)
     }
 
 
@@ -87,7 +87,7 @@ switch (mask){
     while (allBroadcast <= 255){
         allBroadcast = Number(allBroadcast + numHost)
         if (allBroadcast <= 256){
-            console.log(`All Broadcast: ${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${allBroadcast - 1}`)   
+            console.log(`All Broadcasts: ${ipSplit[0]}.${ipSplit[1]}.${ipSplit[2]}.${allBroadcast - 1}`)   
         }
     }
 
