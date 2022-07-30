@@ -6,10 +6,32 @@
 
 ### Cloning the repository and running the calculator
 
-```git clone https://github.com/gustavokubiack/ipv4Calculator.git ```
+```
+git clone https://github.com/gustavokubiack/ipv4Calculator.git 
+```
 
-```cd ipv4Calculator```
+```
+cd ipv4Calculator
+```
 
-```npm i```
+```
+npm i
+```
 
-```npm start``
+```
+npm start
+```
+
+### Example
+
+#### Enter IP: 
+``` 
+192.168.10.0 
+``` 
+#### Enter Mask: 
+``` 
+27 
+``` 
+
+
+
