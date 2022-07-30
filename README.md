@@ -1,3 +1,15 @@
 # ipv4Calculator
 
-ipv4Calculator is a IPv4 calculator written in JavaScript
+### Prerequisites
+
+* [Node.js](https://nodejs.org/en/)
+
+### Cloning the repository and running the calculator
+
+```git clone https://github.com/gustavokubiack/ipv4Calculator.git ```
+
+```cd ipv4Calculator```
+
+```npm i```
+
+```npm start``
